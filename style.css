@@ -1,14 +1,17 @@
 
-
-
 header {
     background-image: url(img/fundo.png);
+    margin-top: none;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90px;
-    background-color: #333333;
+    height: 120px;
+    width: 100%;
     color: #000000;
-    padding: 10px;
+    
+  }
+  header h1{
+    display: flex;
+    justify-content: center;
   }
 body {
     background-color: #f4915f;
@@ -17,25 +20,24 @@ body {
   h1 {
     margin: 0;
   }
-    
+  
   nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin: 0 10px;
+    display: inline-block;      
+    margin-top: -15px;
     
-  }
+  
+}
   
   nav a {
     color: #000000;
     text-decoration: none;
+    background-color: none;
+  }
+  nav a:hover {
+   background-color: #d86b35;
     
   }
-  
   
   main {
     max-width: 800px;
@@ -45,6 +47,8 @@ body {
   
   h2 {
     margin-top: 40px;
+    display: flex;
+    justify-content: left;
   }
   
   p {
